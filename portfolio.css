@@ -1,0 +1,781 @@
+.portfolio-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio-desktop1 {
+  width: 100%;
+  height: 5111px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.portfolio-rectangle125 {
+  top: 2412px;
+  left: -1px;
+  width: 1437px;
+  height: 1169px;
+  position: absolute;
+  border-radius: 10px;
+}
+.portfolio-intro {
+  top: 172px;
+  left: 83px;
+  width: 1255px;
+  height: 400px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.portfolio-text {
+  top: 6px;
+  width: 911px;
+  height: auto;
+  position: absolute;
+  font-size: 85px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text001 {
+  color: #ff8404;
+}
+.portfolio-text002 {
+  color: #ff8404;
+}
+.portfolio-text003 {
+  color: #ff8404;
+}
+.portfolio-text004 {
+  color: #ff8404;
+}
+.portfolio-text005 {
+  color: #ff8404;
+}
+.portfolio-text006 {
+  color: #000000;
+}
+.portfolio-text007 {
+  color: #ff8404;
+}
+.portfolio-image1 {
+  top: 0px;
+  left: 855px;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  border-radius: 800px;
+}
+.portfolio-projects {
+  top: 775px;
+  left: 81px;
+  width: 1285px;
+  height: 1414px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.portfolio-text008 {
+  left: 505px;
+  color: rgba(0, 0, 0, 1);
+  width: 269px;
+  height: auto;
+  position: absolute;
+  font-size: 55px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-rectangle121 {
+  top: 184px;
+  left: 2px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.portfolio-rectangle124 {
+  top: 624px;
+  left: 2px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-radius: 10px;
+}
+.portfolio-rectangle1251 {
+  top: 1064px;
+  left: 2px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-radius: 10px;
+}
+.portfolio-text010 {
+  top: 646px;
+  color: rgb(0, 0, 0);
+  right: 5px;
+  width: 856px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text014 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text016 {
+  top: 206px;
+  color: rgb(0, 0, 0);
+  right: 14px;
+  width: 856px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text020 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text022 {
+  color: rgb(0, 0, 0);
+  right: 0px;
+  width: 856px;
+  bottom: 30px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text026 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-recycle1 {
+  top: 185px;
+  left: 0px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+}
+.portfolio-skills {
+  top: 2473px;
+  left: 0px;
+  width: 1436px;
+  height: 975px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.portfolio-text028 {
+  color: rgb(0, 0, 0);
+  width: 1436px;
+  height: auto;
+  position: absolute;
+  font-size: 55px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text029 {
+  top: 206px;
+  left: 50px;
+  color: rgb(0, 0, 0);
+  width: 379px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text032 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text033 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text034 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text035 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text036 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text037 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text038 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text039 {
+  top: 206px;
+  left: 519px;
+  color: rgb(0, 0, 0);
+  width: 399px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text042 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text043 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text044 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text045 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text046 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text047 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text048 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text049 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text050 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text051 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text052 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text053 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text054 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text055 {
+  top: 206px;
+  left: 1035px;
+  color: rgb(0, 0, 0);
+  width: 333px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text058 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text059 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text060 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text061 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text062 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text063 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text064 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text065 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text066 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text067 {
+  top: 793px;
+  left: 1081px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text070 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text071 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text072 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text073 {
+  top: 793px;
+  left: 473px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text076 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text077 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text078 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text079 {
+  top: 793px;
+  left: 184px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text082 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text083 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-text084 {
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-workexp {
+  top: 3703px;
+  left: 117px;
+  width: 1249px;
+  height: 838.978271484375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.portfolio-text085 {
+  color: rgb(0, 0, 0);
+  width: 1249px;
+  height: auto;
+  position: absolute;
+  font-size: 55px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-ellipse661 {
+  top: 175px;
+  left: 345px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+.portfolio-ellipse664 {
+  top: 447px;
+  left: 345px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+.portfolio-ellipse665 {
+  top: 724px;
+  left: 343px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+.portfolio-text086 {
+  top: 175px;
+  color: rgba(0, 0, 0, 1);
+  width: 285px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: italic;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text088 {
+  top: 447px;
+  color: rgba(0, 0, 0, 1);
+  width: 285px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: italic;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text090 {
+  top: 724px;
+  color: rgba(0, 0, 0, 1);
+  width: 263px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: italic;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text092 {
+  top: 136px;
+  left: 469px;
+  color: rgb(0, 0, 0);
+  width: 772px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text096 {
+  top: 408px;
+  left: 473px;
+  color: rgba(0, 0, 0, 1);
+  width: 772px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text101 {
+  top: 685px;
+  left: 469px;
+  color: rgba(0, 0, 0, 1);
+  width: 772px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-line3 {
+  top: 235px;
+  left: 375px;
+  width: 212px;
+  height: 1px;
+  position: absolute;
+}
+.portfolio-line4 {
+  top: 507px;
+  left: 375px;
+  width: 217px;
+  height: 1px;
+  position: absolute;
+}
+.portfolio-foot {
+  top: 4746px;
+  left: 0px;
+  width: 1440px;
+  height: 365px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(242, 242, 242, 1);
+}
+.portfolio-text106 {
+  top: 95px;
+  left: 120px;
+  color: rgba(255, 132, 4, 1);
+  width: 353px;
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-linkedinnetworklinkedinprofessional {
+  top: 256px;
+  left: 557px;
+  width: 34.341583251953125px;
+  height: 37.02491760253906px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.portfolio-vector {
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 37px;
+  position: absolute;
+}
+.portfolio-vector2 {
+  top: 11.867768287658691px;
+  left: 12.69810676574707px;
+  width: 22px;
+  height: 25px;
+  position: absolute;
+}
+.portfolio-mailsendemailmessagesendemailpaperairplanedeliver {
+  top: 159px;
+  left: 553px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolio-mailsendemailmessagesendemailpaperairplanedeliver1 {
+  top: 1.4285714626312256px;
+  left: 1.4285714626312256px;
+  width: 37.14285659790039px;
+  height: 37.14285659790039px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.portfolio-vector2311 {
+  top: 0px;
+  left: 0px;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+}
+.portfolio-vector2312 {
+  top: 12.857142448425293px;
+  left: 15.714285850524902px;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+}
+.portfolio-phoneandroidphonemobiledevicesmartphoneiphone {
+  top: 62px;
+  left: 554px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolio-phoneandroidphonemobiledevicesmartphoneiphone1 {
+  top: 1.4571714401245117px;
+  left: 1.4285714626312256px;
+  width: 37.14286804199219px;
+  height: 37.08586883544922px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.portfolio-vector1 {
+  top: 0px;
+  left: 0px;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+}
+.portfolio-text108 {
+  top: 59px;
+  left: 639px;
+  color: rgba(0, 0, 0, 1);
+  width: 343px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text110 {
+  top: 154px;
+  left: 639px;
+  color: rgba(0, 0, 0, 1);
+  width: 482px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-text112 {
+  top: 256px;
+  left: 639px;
+  color: rgba(0, 0, 0, 1);
+  width: 759px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
