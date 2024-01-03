@@ -11,7 +11,7 @@ html, body{
 
 .intro-div{
     box-sizing: border-box;
-    padding: 100px 130px 100px 130px;
+    padding: 100px 150px 100px 150px;
     display: flex;
     background: #F2F2F2;
 }
@@ -29,7 +29,7 @@ html, body{
 }
 
 .projects{
-    padding: 50px 100px 100px 100px;
+    padding: 50px 150px 100px 150px;
 }
 
 .git-link{
