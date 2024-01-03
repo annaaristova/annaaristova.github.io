@@ -44,19 +44,19 @@ a {
 .recycle-app, .sprinkler-app{
     padding: 50px 0 50px 0;
     display: flex;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 30px;
 }
 
 .sale-app{
     padding: 50px 0 0 0;
     display: flex;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 30px;
 }
 
 .project-title{
-    font-size: 30px;
+    font-size: 40px;
     margin: 0;
     padding-bottom: 15px;
 }
@@ -126,14 +126,14 @@ footer{
 }
 
 .footer-text{
-    font-size: 45px;
+    font-size: 64px;
     color: #FF8404;
     padding-right: 150px;
     padding-top: 2px;
 }
 
 .contacts{
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .fa-regular fa-paper-plane{
@@ -153,12 +153,12 @@ i{
 }
 
 .work-title{
-    font-size: 23px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .work-desc{
-    font-size: 20px;
+    font-size: 32px;
     flex: 3;
 }
 
@@ -168,7 +168,7 @@ i{
 }
 
 .years{
-    font-size: 23px;
+    font-size: 40px;
     flex: 1;
     font-style: italic;
     color: #FF8404;
