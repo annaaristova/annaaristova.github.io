@@ -1,0 +1,175 @@
+:root{
+    font-family: Poppins,sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-div{
+    box-sizing: border-box;
+    padding: 100px 130px 100px 130px;
+    display: flex;
+    background: #F2F2F2;
+}
+
+.intro-text{
+    font-size: 60px;
+    padding: 70px 30px 0 0;
+    line-height: 80px;
+}
+
+.photo img{
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+}
+
+.projects{
+    padding: 50px 100px 100px 100px;
+}
+
+.git-link{
+    padding-bottom: 10px;
+}
+
+a {
+    color: #FF8404;
+    text-decoration: none;
+}
+
+.recycle-app, .sprinkler-app{
+    padding: 50px 0 50px 0;
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sale-app{
+    padding: 50px 0 0 0;
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.project-title{
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.project-img{
+    padding-right: 70px;
+}
+
+.project-img img{
+    width: 200px;
+    height: 200px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.sk-title{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.skills-title{
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skills{
+    background-color: #E7DFCF;
+}
+
+.skill-block{
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 0 70px 50px 70px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+li{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+footer{
+    background-color: #F2F2F2;
+}
+
+.footer-block{
+    display: flex;
+    padding: 50px 120px 50px 150px;
+}
+
+.footer-text{
+    font-size: 45px;
+    color: #FF8404;
+    padding-right: 150px;
+    padding-top: 2px;
+}
+
+.contacts{
+    font-size: 22px;
+}
+
+.fa-regular fa-paper-plane{
+    font-size: 30px;
+}
+
+.mail, .phone{
+    padding-bottom: 20px;
+}
+
+i{
+    padding-right: 15px;
+}
+
+.work-exp{
+    padding: 80px 0 80px 0;
+}
+
+.work-title{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.work-desc{
+    font-size: 20px;
+    flex: 3;
+}
+
+.work{
+    display: flex;
+    padding: 30px 150px 30px 150px;
+}
+
+.years{
+    font-size: 23px;
+    flex: 1;
+    font-style: italic;
+    color: #FF8404;
+}
