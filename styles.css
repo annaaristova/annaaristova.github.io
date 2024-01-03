@@ -17,14 +17,14 @@ html, body{
 }
 
 .intro-text{
-    font-size: 70px;
+    font-size: 60px;
     padding: 70px 50px 0 0;
     line-height: 80px;
 }
 
 .photo img{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 200px;
 }
 
