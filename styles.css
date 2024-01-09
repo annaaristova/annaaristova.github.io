@@ -9,167 +9,386 @@ html, body{
     height: 100%;
 }
 
+header{
+    background-color: #F2F2F2;
+}
+
+.header{
+    display: flex;
+    padding: 15px 100px 15px 90px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 60px
+}
+
+.navigation{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    cursor: pointer;
+    padding: 0 30px 0 30px;
+}
+
+#services, #projects, #skills-exp{
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+    background: transparent;
+}
+
+.logo img{
+    height: 100px;
+    width: 84px;
+}
+
 .intro-div{
     box-sizing: border-box;
-    padding: 150px;
+    padding: 30px 140px 100px 180px;
     display: flex;
-    background: #F2F2F2;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+.intro-text-wrapper{
+    flex: 2;
+    display: grid;
+    gap: 50px;
+    padding-top: 30px;
 }
 
 .intro-text{
+    font-size: 48px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    line-height: 70px;
+}
+
+.intro-title{
+    font-size: 70px;
+    margin: 0;
+}
+
+span{
+    color: #D00066;
+    font-family: 'Amita';
     font-size: 60px;
-    padding: 70px 50px 0 0;
-    line-height: 80px;
+}
+
+.photo{
+    flex: 1;
+    margin: auto;
 }
 
 .photo img{
-    width: 350px;
-    height: 350px;
-    border-radius: 200px;
+    width: 550;
+    height: 550;
 }
 
-.projects{
-    padding: 50px 150px 100px 150px;
-}
-
-.git-link{
-    padding-bottom: 10px;
-}
-
-a {
-    color: #FF8404;
-    text-decoration: none;
-}
-
-.recycle-app, .sprinkler-app{
-    padding: 50px 0 50px 0;
+.buttons{
     display: flex;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.connect, .download{
     font-size: 20px;
-    line-height: 30px;
-}
-
-.sale-app{
-    padding: 50px 0 0 0;
-    display: flex;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.project-title{
-    font-size: 30px;
-    margin: 0;
-    padding-bottom: 15px;
-}
-
-.project-img{
-    padding-right: 70px;
-}
-
-.project-img img{
-    width: 200px;
-    height: 200px;
-    border: 0.5px solid black;
     border-radius: 10px;
+    padding: 10px 15px 10px 15px;
 }
 
-.sk-title{
-    text-align: center;
-    font-size: 40px;
-    padding-top: 40px;
+.connect{
+    background-color: #D00066;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-.title{
-    text-align: center;
-    font-size: 40px;
+.connect:active, .connect:hover{
+    background-color: #bd005d;
 }
 
-.skills-title{
-    font-size: 23px;
-    text-align: center;
+.download{
+    border: #D00066 solid;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+.download:active, .download:hover{
+    background-color: #e8e8e8;
+    border: #bd005d solid;
+}
+
+.download p{
+    padding: 0;
+    margin: 0;
+}
+
+.check-out{
+    display: flex;
+    font-size: 28px;
+}
+
+.links{
+    padding-left: 40px;
+}
+
+.links i{
+    font-size: 32px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+#in-link, #git-link, #git-sprinkler, #git-ulta, #git-recycle{
+    border: none;
+    background: transparent;
+}
+
+.services{
+    background: #fdbb2d;
+    background: linear-gradient(0deg, rgba(253,187,45,1) 60%, rgba(255,132,4,1) 100%);
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 100px 30px 120px;
+}
+
+.what-i-do{
+    font-size: 58px;
+    color: white;
+    -webkit-text-stroke: black 2px;
     font-weight: bold;
 }
 
-.skills{
+.servises-wrapper{
+    display: grid;
+    font-size: 38px;
+    color: white;
+    padding-right: 50px;
+}
+
+.service{
+    border-top: 4px solid white;
+    font-weight: bold;
+}
+
+.service p{
+    padding-left: 30px;
+}
+
+.skills-exp{
     background-color: #E7DFCF;
+    padding: 80px 80px 30px 80px;
 }
 
-.skill-block{
-    border: 0.5px solid black;
-    border-radius: 10px;
+.skills-exp-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
 }
 
-.skills-grid{
+.experience-wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    gap: 40px;
+}
+
+.experience-wrapper-title{
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.quote{
+    display: flex;
+    gap: 30px;
+}
+
+.quote i{
+    font-size: 44px;
+}
+
+.short-intro{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.exp-title{
+    font-size: 32px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px 0 40px 0;
+    border-top: 2px solid #FF8404;
+    gap: 10px;
+}
+
+.date{
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.job-title{
+    font-size: 24px;
+}
+
+.skills{
+    padding: 28px 0 30px 80px;
+}
+
+.skills-title{
+    font-size: 32px;
+    padding: 0 50px 20px 20px;
+    font-weight: bold;
+}
+
+.skills-block p{
+    font-size: 26px;
+    padding: 0 50px 0 20px;
+}
+
+.circle i{
+    font-size: 28px;
+    padding-top: 15px;
+}
+
+.skill-desc p{
+    font-size: 20px;
+    padding: 10px 0 20px 0;
+}
+
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 100px 10px 20px;
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50px;
+    border: 3px #FF8404 solid;
+    text-align: center;
+    margin: auto;
+}
+
+.skill-desc{
+    text-align: center;
+}
+
+.projects-wrapper{
+    background-color: #F2F2F2;
+    padding: 80px 100px 30px 80px;
+}
+
+.project{
+}
+
+.projects{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
-    padding: 0 70px 50px 70px;
 }
 
-ul{
-    list-style-type: none;
+.lat-project{
+    font-size: 48px;
+}
+
+.project-title{
+    display: flex;
+}
+
+.project-title p{
+    font-size: 28px;
+    flex: 2;
+}
+
+.link-btn{
+    height: 45px;
+    width: 45px;
+    background-color: #D00066;
+    border-radius: 50px;
     text-align: center;
-    padding: 0;
+    margin: auto;
+    cursor: pointer;
 }
 
-li{
+.link-btn i{
+    padding-top: 13px;
     font-size: 18px;
-    line-height: 28px;
 }
+
+.project-and-title{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    
+}
+
+.project-img{
+    width: 350px;
+    height: 350px;
+    padding-top: 20px;
+}
+
+.project-wrapper{
+    padding: 0 40px 0 40px;
+}
+
+.pr-desc{
+    font-size: 22px;
+    padding-top: 20px;
+    line-height: 32px;
+}
+
+#project-2{
+    margin: auto;
+}
+
 
 footer{
-    background-color: #F2F2F2;
+    background: rgb(253,187,45);
+    background: linear-gradient(0deg, rgba(253,187,45,1) 60%, rgba(255,132,4,1) 100%);
 }
 
 .footer-block{
     display: flex;
-    padding: 50px 120px 50px 150px;
+    padding: 40px 80px 40px 100px;
 }
 
 .footer-text{
-    font-size: 45px;
-    color: #FF8404;
-    padding-right: 150px;
-    padding-top: 2px;
+    font-size: 48px;
+    color: white;
+    -webkit-text-stroke: black 2px;
+    font-weight: bold;
+    padding-left: 50px;
+    flex: 1;
 }
 
 .contacts{
-    font-size: 22px;
-}
-
-.fa-regular fa-paper-plane{
-    font-size: 30px;
-}
-
-.mail, .phone{
-    padding-bottom: 20px;
-}
-
-i{
-    padding-right: 15px;
-}
-
-.work-exp{
-    padding: 80px 0 80px 0;
-}
-
-.work-title{
-    font-size: 23px;
+    font-size: 24px;
     font-weight: bold;
+    flex: 2;
+    padding-top: 15px;
 }
 
-.work-desc{
-    font-size: 20px;
-    flex: 3;
+.phone{
+    padding-bottom: 30px;
 }
 
-.work{
-    display: flex;
-    padding: 30px 150px 30px 150px;
-}
-
-.years{
-    font-size: 23px;
-    flex: 1;
-    font-style: italic;
-    color: #FF8404;
+.phone i, .mail i{
+    padding-right: 25px;
+    color: white;
+    -webkit-text-stroke: black 2px;
 }

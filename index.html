@@ -4,166 +4,309 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8"> 
     <script src="https://kit.fontawesome.com/69eeb00b14.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amita">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   </head>
 
 
   <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <img src="images/logo-gray.png" alt="logo">
+        </div>
+        <div class="nav-wrapper">
+          <ul class="navigation">
+            <li class="nav-link"><button id="services">Services</button></li>
+            <li class="nav-link"><button id="skills-exp">Skills & Experience</button></li>
+            <li class="nav-link"><button id="projects">Projects</button></li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
       <div class="intro-div">
-        <div class="intro-text">
-          <span style="color:#FF8404">Hey, I'm Anna!</span> <br> UI/UX Designer and Developer
+        <div class="intro-text-wrapper">
+          <div class="intro-text">
+            Hey, I'm <span>Anna</span>!
+            <br> 
+            A UI/UX Designer and Developer
+          </div>
+          <div class="buttons">
+            <button class="connect">Let's Connect</button>
+            <button class="download"><p>Resume</p><i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+          </div>
+          <div class="check-out">
+            Check out my
+            <div class="links">
+              <button id="in-link"><i class="fa-brands fa-linkedin-in"></i></button>
+              <button id="git-link"><i class="fa-brands fa-github"></i></button>
+            </div>
+          </div>
+
         </div>
         <div class="photo">
-          <img src="images/photo_2024-01-02_13-13-07.jpg" alt="Photo">
+          <img src="images/photo-gray.png" alt="Photo">
         </div>
       </div>
 
-      <div class="projects">
-        <p class="title">Projects</p>
-        <div class="recycle-app">
-          <div class="project-img">
-            <img src="images/recycle.png" alt="Recycle">
+      <div class="services">
+        <div class="services-grid">
+          <div class="what-i-do">
+            What I do
           </div>
-          <div>
-            <p class="project-title">Recycling App</p>
-            <div class="git-link">
-              <i class="fa-brands fa-github"></i> 
-              <a href="https://github.com/annaaristova/recycle-app">Recycling App</a>
-            </div> 
-            Designed and developed a website for waste management and recycling in the Bay Area.
-          </div>
-        </div>
-
-        <div class="sprinkler-app">
-          <div class="project-img">
-            <img src="images/irrigation-2402568_640.jpg" alt="sprinkler">
-          </div>
-          <div>
-            <p class="project-title">Automated Sprinkler</p> 
-            <div class="git-link">
-              <i class="fa-brands fa-github"></i> 
-              <a href="https://github.com/annaaristova/sprinklerApp">Automated Sprinkler</a>
-            </div> 
-            Developed an automated sprinkler system merging web technology, firmware, and hardware for efficient watering control.
-          </div>
-        </div>
-
-        <div class="sale-app">
-          <div class="project-img">
-            <img src="images/free-message-2367724-1976874.png" alt="sprinkler">
-          </div>
-          <div>
-            <p class="project-title">Sale-Tracker App</p> 
-            <div class="git-link">
-              <i class="fa-brands fa-github"></i> 
-              <a href="https://github.com/annaaristova/Ulta_bot">Sale-Tracker App</a>
-            </div> 
-            A sale tracker application sends real-time notifications to users' messenger accounts (Telegram).
-          </div>
-        </div>
-        
-      </div>
-
-      <div class="skills">
-        <p class="sk-title">Skills</p>
-        <div class="skills-grid">
-          <div class="skill-block">
-            <p class="skills-title">UI/UX Design</p>
-            <ul>
-              <li>HTML</li>
-              <li>Figma</li>
-              <li>CSS</li>
-              <li>Ps</li>
-            </ul>
-          </div>
-          <div  class="skill-block">
-            <p class="skills-title">Web technologies</p>
-            <ul>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>ReactJS</li>
-              <li>Flask</li>
-              <li>jQuery</li>
-              <li>AJAX</li>
-              <li>Rest API</li>
-            </ul>
-          </div>
-          <div class="skill-block">
-            <p class="skills-title">Programming Languages</p>
-            <ul>
-              <li>JavaScript</li>
-              <li>Java</li>
-              <li>Python</li>
-              <li>C</li>
-            </ul>
-          </div>
-          <div class="skill-block">
-            <p class="skills-title">DBMS</p>
-            <ul>
-              <li>SQL</li>
-              <li>SQLite</li>
-            </ul>
-          </div>
-          <div class="skill-block">
-            <p class="skills-title">Application Development</p>
-            <ul>
-              <li>Microsoft Windows</li>
-              <li>Linux</li>
-            </ul>
-          </div>
-          <div class="skill-block">
-            <p class="skills-title">CMS</p>
-            <ul>
-              <li>Wordpress</li>
-              <li>Squarespace</li>
-            </ul>
+          <div class="servises-wrapper">
+            <div class="service">
+              <p>UI/UX Design</p>
+            </div>
+            <div  class="service">
+              <p>Web Development</p>
+            </div>
+            <div class="service">
+              <p>Technical Writing</p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="work-exp">
-        <p class="title">Working Experience</p>
-        <div class="work">
-          <div class="years"><p>2023-present</p></div>
-          <div class="work-desc">
-            <p class="work-title">UI/UX Designer & Front-End Developer</p>
-            Designing and building a business communication app
-          </div>
-        </div>
 
-        <div class="work">
-          <div class="years"><p>2023-present</p></div>
-          <div class="work-desc">
-            <p class="work-title">Front-End Developer</p>
-            Building a mobile-friendly dynamic website for the animal shelter
-          </div>
-        </div>
+      <script>
+        $(document).ready(function() {
+          $('#services').on('click', function() {
+            $('html, body').animate({
+                scrollTop: $('.services').offset().top
+            }, 'slow');
+          });
 
-        <div class="work">
-          <div class="years"><p>2021-2022</p></div>
-          <div class="work-desc">
-            <p class="work-title">Technical Writer</p>
-            Create technical documents, user guides, and instructions
+          $('#skills-exp').on('click', function() {
+            $('html, body').animate({
+                scrollTop: $('.skills').offset().top
+            }, 'slow');
+          });
+
+          $('#projects').on('click', function() {
+            $('html, body').animate({
+                scrollTop: $('.projects').offset().top
+            }, 'slow');
+          });
+
+          $('.connect').on('click', function() {
+            $('html, body').animate({
+                scrollTop: $('.footer-block').offset().top
+            }, 'slow');
+          });
+
+          $('.download').on('click', function(e) {          
+            var url = "files/resume.pdf";           
+            e.preventDefault();          
+            window.location.href = url;
+          }); 
+
+          $('#in-link').on('click', function() {
+            var url = 'https://www.linkedin.com/in/anna-aristova/'; 
+            window.open(url, '_blank');
+          });
+
+          $('#git-link').on('click', function() {
+            var url = 'https://github.com/annaaristova'; 
+            window.open(url, '_blank');
+          });
+
+          $('#git-sprinkler').on('click', function() {
+            var url = 'https://github.com/annaaristova/sprinklerApp'; 
+            window.open(url, '_blank');
+          });
+
+          $('#git-recycle').on('click', function() {
+            var url = 'https://github.com/annaaristova/recycle-app'; 
+            window.open(url, '_blank');
+          });
+
+          $('#git-ulta').on('click', function() {
+            var url = 'https://github.com/annaaristova/Ulta_bot'; 
+            window.open(url, '_blank');
+          });
+
+        });
+      </script>
+
+      <div class="skills-exp">
+        <div class="skills-exp-wrapper">
+
+          <div class="experience-wrapper">
+            <div><p class="experience-wrapper-title">Skills & <br>Experience</p></div>
+            <div class="quote">
+              <i class="fa-solid fa-quote-left" style="color: #fdbb2d;"></i>
+              <p class="short-intro"> I'm a UI/UX Designer and Web Developer passionate about creating beautiful and innovative products that people love</p>
+            </div>
+            <div class="experiences">
+              <p class="exp-title">Experience</p>
+              <div class="experience">
+                <div class="date">
+                  2023 - present
+                </div>
+                <div class="job-title">
+                  UI/UX Designer & Front-End Developer
+                </div>
+              </div>
+              <div class="experience">
+                <div class="date">
+                  2023 - present
+                </div>
+                <div class="job-title">
+                  Front-End Developer
+                </div>
+              </div>
+              <div class="experience">
+                <div class="date">
+                  2021 - 2022
+                </div>
+                <div class="job-title">
+                  Technical Writer
+                </div>
+              </div>
+            </div>
           </div>
+
+
+          <div class="skills">
+            <p class="skills-title">Skills</p>
+
+            <div class="skills-block">
+              <p>UI/UX Design</p>
+              <div class="skill">
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-solid fa-file-code" style="color: #ffffff;"></i></div>
+                  <p>HTML/CSS</p>
+                </div>
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-brands fa-figma" style="color: #ffffff;"></i></div>
+                  <p>Figma</p>
+                </div>
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-solid fa-image" style="color: #ffffff;"></i></div>
+                  <p>Photoshop</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-block">
+              <p>Programming Languages</p>
+              <div class="skill">
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-brands fa-js" style="color: #ffffff;"></i></div>
+                  <p>JavaScript</p>
+                </div>
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-brands fa-python" style="color: #ffffff;"></i></div>
+                  <p>Python</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-block">
+              <p>Web Technologies</p>
+              <div class="skill">
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-brands fa-react" style="color: #ffffff;"></i></div>
+                  <p>React</p>
+                </div>
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-brands fa-node-js" style="color: #ffffff;"></i></div>
+                  <p>Node.js</p>
+                </div>
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-solid fa-book" style="color: #ffffff;"></i></div>
+                  <p>jQuery</p>
+                </div>
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-solid fa-cube" style="color: #ffffff;"></i></div>
+                  <p>Express.js</p>
+                </div>
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-solid fa-code" style="color: #ffffff;"></i></div>
+                  <p>AJAX</p>
+                </div>
+                <div class="skill-desc">
+                  <div class="circle"><i class="fa-solid fa-pepper-hot fa-flip-horizontal" style="color: #ffffff;"></i></div>
+                  <p>Flask</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="projects-wrapper">
+        <div class="projects">
+          <div class="project-and-title">
+            <div>
+              <p class="lat-project">Latest Projects</p>
+            </div>
+            <div class="empty-block"></div>
+            <div class="project">
+              <div class="project-wrapper">
+                <div class="project-title">
+                  <p>Sale-Tracker App</p>
+                  <button id="git-ulta">
+                    <div class="link-btn">
+                      <i class="fa-solid fa-arrow-up-right-from-square" style="color: white;"></i>
+                    </div>
+                  </button>
+                </div>
+                <img class="project-img" src="images/ulta.png" alt="recycle-app">
+                <p class="pr-desc">A sale tracker application sends real-time notifications to users' messenger accounts (Telegram)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project" id="project-2">
+            <div class="project-wrapper">
+              <div class="project-title">
+                <p>Recycling App</p>
+                <button id="git-recycle">
+                  <div class="link-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square" style="color: white;"></i>
+                  </div>
+                </button>
+              </div>
+              <img class="project-img" src="images/recycle-app.png" alt="recycle-app">
+              <p class="pr-desc">Designed and developed a website for waste management and recycling in the Bay Area</p>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-wrapper">
+              <div class="project-title">
+                <p>Automated sprinkler</p>
+                <button id="git-sprinkler">
+                  <div class="link-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square" style="color: white;"></i>
+                  </div>
+                </button>
+              </div>
+              <img class="project-img" src="images/sprinkler.png" alt="recycle-app">
+              <p class="pr-desc">Developed an automated sprinkler system merging web technology, firmware, and hardware for efficient watering control</p>
+            </div>
+          </div>
+          
         </div>
       </div>
     </main>
+
 
     <footer>
       <div class="footer-block">
         <div class="footer-text">Let's <br> connect!</div>
         <div class="contacts">
-          <div class="mail">
-            <i class="fa-solid fa-phone"></i>
-            256-655-8926
-          </div>
           <div class="phone">
-            <i class="fa-regular fa-paper-plane"></i>
-            aristova22.12@gmail.com
+            <i class="fa-solid fa-phone"></i>
+            +1 (256)-655-8926
           </div>
-          <div class="in">
-            <i class="fa-brands fa-linkedin-in"></i>
-            https://www.linkedin.com/in/anna-aristova/
+          <div class="mail">
+            <i class="fa-solid fa-envelope"></i>
+            aristova22.12@gmail.com
           </div>
         </div>
       </div>
