@@ -309,12 +309,11 @@ span{
 .project-title{
     display: flex;
     padding-bottom: 20px;
+    align-content: flex-start;
 }
 
 .project-title p{
-    font-size: 28px;
-    padding-right: 20px;
-    flex: 2;
+    font-size: 26px;
 }
 
 #git-sprinkler, #git-ulta, #git-recycle{
@@ -325,6 +324,7 @@ span{
     text-align: center;
     margin: auto;
     cursor: pointer;
+    margin-left: 30px;
 }
 
 #git-sprinkler i, #git-ulta i, #git-recycle i{
@@ -341,8 +341,6 @@ span{
 .project-img{
     width: 250px;
     height: 250px;
-    margin: auto;
-    display: block;
 }
 
 
@@ -351,7 +349,7 @@ span{
 }
 
 .pr-desc{
-    font-size: 22px;
+    font-size: 20px;
     padding-top: 20px;
     line-height: 32px;
 }
@@ -397,3 +395,7 @@ footer{
     color: white;
     -webkit-text-stroke: black 2px;
 }
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  }
