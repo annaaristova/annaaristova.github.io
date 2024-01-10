@@ -18,13 +18,15 @@ header{
     padding: 15px 100px 15px 90px;
     box-sizing: border-box;
     align-items: center;
-    gap: 60px
+    gap: 60px;
+    flex-wrap: wrap;
 }
 
 .navigation{
     list-style-type: none;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .nav-link{
@@ -50,6 +52,7 @@ header{
     display: flex;
     align-items: center;
     background-color: #F2F2F2;
+    flex-wrap: wrap;
 }
 
 .intro-text-wrapper{
@@ -150,8 +153,8 @@ span{
 }
 
 .services{
-    background: #fdbb2d;
-    background: linear-gradient(0deg, rgba(253,187,45,1) 60%, rgba(255,132,4,1) 100%);
+    background: #ff8404;
+    background: linear-gradient(0deg, rgba(253,187,45,1) 60%, #ff8404 100%);
 }
 
 .services-grid{
@@ -290,32 +293,31 @@ span{
 
 .projects-wrapper{
     background-color: #F2F2F2;
-    padding: 80px 100px 30px 80px;
-}
-
-.project{
+    padding: 80px 0 30px 0;
 }
 
 .projects{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
 }
 
 .lat-project{
     font-size: 48px;
+    padding-left: 80px;
 }
 
 .project-title{
     display: flex;
+    padding-bottom: 20px;
 }
 
 .project-title p{
     font-size: 28px;
+    padding-right: 20px;
     flex: 2;
 }
 
-.link-btn{
+#git-sprinkler, #git-ulta, #git-recycle{
     height: 45px;
     width: 45px;
     background-color: #D00066;
@@ -325,10 +327,10 @@ span{
     cursor: pointer;
 }
 
-.link-btn i{
-    padding-top: 13px;
+#git-sprinkler i, #git-ulta i, #git-recycle i{
     font-size: 18px;
 }
+
 
 .project-and-title{
     display: grid;
@@ -337,13 +339,15 @@ span{
 }
 
 .project-img{
-    width: 350px;
-    height: 350px;
-    padding-top: 20px;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    display: block;
 }
 
-.project-wrapper{
-    padding: 0 40px 0 40px;
+
+.project{
+    padding: 0 80px 0 80px;
 }
 
 .pr-desc{
@@ -365,6 +369,7 @@ footer{
 .footer-block{
     display: flex;
     padding: 40px 80px 40px 100px;
+    flex-wrap: wrap;
 }
 
 .footer-text{
