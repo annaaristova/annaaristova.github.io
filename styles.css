@@ -398,4 +398,16 @@ footer{
 
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  }
+    .photo img{
+        width: 300;
+        height: 300;
+    }
+
+    #services, #projects, #skills-exp{
+        cursor: pointer;
+        font-size: 32px;
+        border: none;
+        background: transparent;
+    }
+
+}
