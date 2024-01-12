@@ -31,7 +31,7 @@ header{
 
 .nav-link{
     cursor: pointer;
-    padding: 0 30px 0 30px ;
+    padding: 0 2.34375vw 0 2.34375vw;
 }
 
 #services, #projects, #skills-exp{
@@ -58,14 +58,14 @@ header{
 .intro-text-wrapper{
     flex: 2;
     display: grid;
-    gap: 30px;
-    padding-top: 20px;
+    gap: 5.44vh;
+    padding-top: 1.583%;
 }
 
 .intro-text{
     font-size: 6.53vh;
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding-bottom: 2.375%;
+    padding-top: 1.583%;
     line-height: 4.296875vw;
 }
 
@@ -87,8 +87,8 @@ span{
 
 .buttons{
     display: flex;
-    gap: 30px;
-    padding-bottom: 20px;
+    gap: 2.34375vw;
+    padding-bottom: 3.053%;
 }
 
 .connect, .download{
@@ -109,10 +109,10 @@ span{
 }
 
 .download{
-    border: #D00066 solid;
+    border: 0.363vh #D00066 solid;
     background-color: white;
     display: flex;
-    gap: 20px;
+    gap: 1.5625vw;
     background-color: #F2F2F2;
     cursor: pointer;
 }
@@ -134,12 +134,12 @@ span{
 }
 
 .links{
-    padding-left: 30px;
+    padding-left: 4.58%;
 }
 
 .links i{
     font-size: 4.355vh;
-    padding-right: 10px;
+    padding-right: 12.04%;
     cursor: pointer;
 }
 
@@ -162,7 +162,7 @@ span{
 .what-i-do{
     font-size: 8.35vh;
     color: white;
-    -webkit-text-stroke: black 1.5px;
+    -webkit-text-stroke: black 0.272vh;
     font-weight: bold;
 }
 
@@ -170,7 +170,7 @@ span{
     display: grid;
     font-size: 5.44vh;
     color: white;
-    padding-right: 50px;
+    padding-right: 3.958%;
 }
 
 .service{
@@ -179,7 +179,7 @@ span{
 }
 
 .service p{
-    padding-left: 30px;
+    padding-left: 5.67%;
 }
 
 .skills-exp{
@@ -190,13 +190,13 @@ span{
 .skills-exp-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 2.34375vw;
 }
 
 .experience-wrapper{
     display: grid;
     grid-template-rows: 1fr 1fr 2fr;
-    gap: 50px;
+    gap: 9.074vh;
 }
 
 .experience-wrapper-title{
@@ -206,7 +206,7 @@ span{
 
 .quote{
     display: flex;
-    gap: 20px;
+    gap: 1.5625vw;
 }
 
 .quote i{
@@ -220,22 +220,22 @@ span{
 
 .exp-title{
     font-size: 4.72vh;
-    padding-left: 10px;
+    padding-left: 1.83%;
     font-weight: bold;
-    padding-bottom: 24px;
+    padding-bottom: 4.39%;
 }
 
 .experience{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 30px 0 30px 0;
+    padding: 5.494% 0 5.494% 0;
     border-top: 0.117vw solid #FF8404;
-    gap: 10px;
+    gap:  0.78125vw;
 }
 
 .date{
     font-size: 3.085vh;
-    padding-left: 10px;
+    padding-left: 1.83%;
 }
 
 .job-title{
@@ -243,34 +243,34 @@ span{
 }
 
 .skills{
-    padding: 28px 0 30px 80px;
+    padding: 5.12% 0 5.494% 14.65%;
 }
 
 .skills-title{
     font-size: 4.72vh;
-    padding: 0 50px 20px 20px;
+    padding: 0 9.157% 3.66% 3.66%;
     font-weight: bold;
 }
 
 .skills-block p{
     font-size: 3.63vh;
-    padding: 0 50px 0 20px;
+    padding: 0 9.157% 0 3.66%;;
 }
 
 .circle i{
     font-size: 4.356vh;
-    padding-top: 11px;
+    padding-top: 22.44%;
 }
 
 .skill-desc p{
     font-size: 2.904vh;
-    padding: 10px 0 20px 0;
+    padding: 11.23% 0 22.47% 0;
 }
 
 .skill{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 10px 100px 10px 20px;
+    padding: 2.14% 21.45% 2.14% 4.29%;
 }
 
 .circle{
@@ -299,12 +299,12 @@ span{
 
 .lat-project{
     font-size: 7.26vh;
-    padding-left: 70px;
+    padding-left: 16.63%;
 }
 
 .project-title{
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 7.12%;
     align-content: flex-start;
 }
 
@@ -320,7 +320,7 @@ span{
     text-align: center;
     margin: auto;
     cursor: pointer;
-    margin-left: 25px;
+    margin-left: 8.897%;
 }
 
 #git-sprinkler i, #git-ulta i, #git-recycle i{
@@ -341,12 +341,12 @@ span{
 
 
 .project{
-    padding: 0 70px 0 70px;
+    padding: 0 16.63% 0 16.63%;
 }
 
 .pr-desc{
     font-size: 3.08vh;
-    padding-top: 20px;
+    padding-top: 7.12%;
     line-height: 2.03125vw;
 }
 
@@ -356,7 +356,7 @@ span{
 
 
 footer{
-    background: rgb(253, 187, 45), 187, 45);
+    background: rgb(253, 187, 45);
     background: linear-gradient(0deg, rgba(253,187,45,1) 60%, rgba(255,132,4,1) 100%);
 }
 
@@ -369,9 +369,9 @@ footer{
 .footer-text{
     font-size: 7.62vh;
     color: white;
-    -webkit-text-stroke: black 1.5px;
+    -webkit-text-stroke: black 0.272vh;
     font-weight: bold;
-    padding-left: 50px;
+    padding-left: 3.958%;
     flex: 1;
 }
 
@@ -379,16 +379,16 @@ footer{
     font-size: 3.629vh;
     font-weight: bold;
     flex: 2;
-    padding-top: 12px;
+    padding-top: 0.95%;
 }
 
 .phone{
-    padding-bottom: 30px;
+    padding-bottom: 4.33%;
 }
 
 .phone i, .mail i{
-    padding-right: 20px;
+    padding-right: 2.886%;
     color: white;
-    -webkit-text-stroke: black 1.5px;
+    -webkit-text-stroke: black 0.272vh;
 }
 
